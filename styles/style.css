@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: url(../assets/mainbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: left;
+    transition: 1s;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 48px;
+}
+
+header .logo {
+    width: 220px;
+    filter: invert(1);
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.navigation ul li a {
+    color: #fff;
+    font-size: 18px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: all .6s;
+}
+
+.navigation ul li a:hover {
+    border-bottom: 2px solid #138ecc;
+}
+
+.navigation .search {
+    width: 22px;
+    cursor: pointer;
+    filter: invert(1);
+}
+
+.navigation .perfil {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    object-fit: cover;
+    cursor: pointer;
+    filter: invert(1);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50em;
+    margin-top: -1.5em;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2.5em;
+}
+
+main section .logoSix {
+    width: 20em;
+    margin: 3em 0;
+    filter: invert(1);
+}
+
+main section .btn-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-box .btn {
+    padding: 20px 45px;
+    background: #425265;
+    color: #fff;
+    margin-bottom: 2em;
+    border-bottom: 2px solid #fff;
+    transition: all .3s;
+}
+
+.btn-box .btn:hover {
+    background: #2d3846;
+}
+
+.btn-box .btn:focus {
+    background: #2d3846;
+}
+
+main section .text {
+    color: #fff;
+    line-height: 22px;
+}
+
+.btn-box2 {
+    display: flex;
+    align-items: left;
+    color: #fff;
+    /* background: aqua; */
+    margin-top: 2em;
+    border-radius: 5px 5px 0 0;
+    transition: all 0.5s ease-in;
+}
+
+.btn-box2 .play {
+    width: 1.4em;
+    filter: invert(1);
+}
+
+a h6 {
+    color: #fff;
+}
+
+a p {
+    color: #fff;
+}
+
+#video-player {
+    width: 380px;
+    height: 213.75px; 
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Isaac Martins">
+    <meta name="description" content="Rainbox Six Siege Page">
+    <meta name="keywords" content="R6, Rainbow Six, FPS Game">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Rainbow Six Siege</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="assets/ubisoft-logo.png" alt="logo" class="logo"></a>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Agentes</a></li>
+                <li><a href="#">Mapas</a></li>
+                <li><a href="#">Armas</a></li>
+                <img src="assets/search.png" alt="pesquisa" class="search">
+                <img src="assets/logoR6.png" alt="Perfil" class="perfil">
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <img src="assets/Rainbow-Six-Logo.png" alt="logo Rainbow Six" class="logoSix">
+            <div class="btn-box">
+                <button class="btn operation" onclick="changeVideo('assets/video2.mp4')" data-bg-image="url(../assets/bg.jpg)" data-button-color="#5ba82f" playDesc="Operation Shadow Legacy" data-text=
+                    "A Operação Shadow Legacy de Rainbow Six Siege integrou Sam Fisher, de Splinter Cell, à equipe Rainbow. A temporada também reformulou o mapa Chalé, adicionou miras holográficas e de reflexo personalizáveis, a granada PEM e a carga secundária de demolição. O sistema de reforços foi reformado com uma reserva de 10 reforços para a equipe."
+                >Op. Shadow Legacy</button>
+                <button class="btn operation" onclick="changeVideo('assets/video3.mp4')" data-bg-image="url(../assets/bg2.jpeg)" data-button-color="#323536" playDesc="Operation Deadly Omen" data-text=                
+                    "A Operação Deadly Omen, a Temporada 1 do Ano 9 de Rainbow Six Siege, traz o primeiro Operador vilão: Deimos. Ele é um Atacante com um drone voador que marca inimigos. A Temporada também reformula o mapa Outback e traz balanceamentos e correções de bugs."
+                >Op. Deadly Omen</button>
+                <button class="btn operation" onclick="changeVideo('assets/video4.mp4')" data-bg-image="url(../assets/bg3.jpg)" data-button-color="#2f57a8" playDesc="Operation Deep Freeze" data-text=
+                    "A Operação Deep Freeze é uma missão anual conjunta dos EUA e da Nova Zelândia que fornece apoio à pesquisa científica na Antártida. A operação, iniciada em 1955, inclui transporte, logística, infraestrutura e segurança para as bases científicas, além da proteção ambiental da região."
+                >Op. Deep Freeze</button>
+            </div>
+            <p id="game-description" class="text">
+                Rainbow Six Siege, um jogo de tiro tático em primeira pessoa, continua a prosperar desde seu lançamento em 2015, destacando-se pela estratégia intensa, trabalho em equipe e ambiente destrutível. Com uma comunidade engajada, uma cena competitiva robusta e atualizações constantes de conteúdo, o jogo mantém sua relevância e continua a ser uma força influente no cenário dos jogos eletrônicos.
+            </p>
+            <div class="btn-box2">
+                <div id="video-container">
+                    <video id="video-player" controls autoplay>
+                        <source id="video-source" src="assets/video1.mp4" type="video/mp4">
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
